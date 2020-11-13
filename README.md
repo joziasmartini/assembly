@@ -1,23 +1,8 @@
-# assembly
+# assembly-studies
 A register of my studies and algorithms in assembly.
 
-## Multiplication
+### multiplication.asm
 Implementation of multiplication using successive sums, with risc-v assembly.
 
-```
-.globl main
-
-    .text
-main:
-    addi a0, zero, 7
-    addi a1, zero, 4
-    addi a2, zero, 1
-    addi a3, zero, 0
-    jal multiply
-multiply:
-    blt a0, a1, end
-    add a3, a0, a3
-    add a2, a2, 1
-end:
-    add a0, zero, a3
-```
+### even-number-checker.asm
+Checks and returns the occurrence of even numbers in a vector
