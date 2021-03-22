@@ -9,3 +9,6 @@ Checks and returns the occurrence of even numbers in a vector
 
 ### linked-list.asm
 A linked list with menu for insertion, removal and listing.
+
+### highest-value.asm
+Finds the highest value present in memory.
