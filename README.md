@@ -1,5 +1,5 @@
-# assembly-studies
-A register of my studies and algorithms in Assembly (RISC-V).
+# Assembly
+Studies and algorithms in Assembly (RISC-V).
 
 ### even-number.asm
 Checks and returns the occurrence of even numbers in a vector.
