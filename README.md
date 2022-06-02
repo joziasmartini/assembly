@@ -1,6 +1,16 @@
 # Assembly
 Studies and algorithms in Assembly (RISC-V).
 
+### Introduction
+
+In computer programming, assembly language (or assembler language, or symbolic machine code), is any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Assembly language usually has one statement per machine instruction (1:1), but constants, comments, assembler directives, symbolic labels of, e.g., memory locations, registers, and macros are generally also supported.
+
+Assembly code is converted into executable machine code by a utility program referred to as an assembler. The term "assembler" is generally attributed to Wilkes, Wheeler and Gill in their 1951 book The Preparation of Programs for an Electronic Digital Computer, who, however, used the term to mean "a program that assembles another program consisting of several sections into a single program". The conversion process is referred to as assembly, as in assembling the source code. The computational step when an assembler is processing a program is called assembly time.
+
+Because assembly depends on the machine code instructions, each assembly language is specific to a particular computer architecture. Today, it is typical to use small amounts of assembly language code within larger systems implemented in a higher-level language, for performance reasons or to interact directly with hardware in ways unsupported by the higher-level language. For instance, just under 2% of version 4.9 of the Linux kernel source code is written in assembly; more than 97% is written in C.
+
+Excerpts from [Wikipedia](https://en.wikipedia.org/wiki/Assembly_language).
+
 ### About RISC-V
 
 RISC-V is a free and open ISA enabling a new era of processor innovation through open standard collaboration.
