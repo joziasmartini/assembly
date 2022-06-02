@@ -29,17 +29,27 @@ RISC-V also does not take a political position on behalf of any geography. We ar
 
 Excerpts from [RISC-V website](https://riscv.org/about/).
 
-### even-number.asm
+### Files
+
+A description about the files in this repository.
+
+#### even-number.asm
 Checks and returns the occurrence of even numbers in a vector.
 
-### highest-value.asm
+#### highest-value.asm
 Finds the highest value present in memory.
 
-### linked-list.asm
+#### linked-list.asm
 A linked list with menu for insertion, removal and listing.
 
-### multiplication.asm
+#### multiplication.asm
 Implementation of multiplication using successive sums.
 
-### stack-calc.asm
+#### stack-calc.asm
 A calculus made in a stack architecture assembly.
+
+#### risc-v-reference-card.pdf
+The reference card for instructions in RISC-V architecture.
+
+#### rv32im-isa.pdf
+The Instruction Set Architecture (ISA) for RV32IM.
