@@ -14,19 +14,18 @@ Excerpts from [Wikipedia](https://en.wikipedia.org/wiki/Assembly_language).
 
 ### About RISC-V
 
-RISC-V is a free and open ISA enabling a new era of processor innovation through open standard collaboration.
+<br/>
+<div align="center">
+<img src="./doc/companies-using-riscv.png" width="600" />
+<p>Companies using RISC-V</p>
+</div>
+<br/>
 
-The RISC-V ISA delivers a new level of free, extensible software and hardware freedom on architecture, paving the way for the next 50 years of computing design and innovation.
+RISC-V is a free and open ISA enabling a new era of processor innovation through open standard collaboration. The RISC-V ISA delivers a new level of free, extensible software and hardware freedom on architecture, paving the way for the next 50 years of computing design and innovation.
 
-RISC-V has broken down barriers in the semiconductor industry, bringing together different companies, industries, and geographies for open collaboration.
+RISC-V has broken down barriers in the semiconductor industry, bringing together different companies, industries, and geographies for open collaboration. RISC-V combines a modular technical approach with an open license business model, meaning that anyone, anywhere can leverage the IP contributed and produced by RISC-V International.
 
-RISC-V combines a modular technical approach with an open license business model, meaning that anyone, anywhere can leverage the IP contributed and produced by RISC-V International.
-
-RISC-V International is a global nonprofit association based in Switzerland. Founded in 2015 as the RISC-V Foundation with 29 members, is now a truly global organization with 2k+ members in more than 70 countries.
-
-Incorporated in Switzerland, RISC-V International is truly a global organization. As a non-profit, RISC-V International does not maintain any commercial interest in products or services.
-
-RISC-V also does not take a political position on behalf of any geography. We are proud to see organizations from around the world working together in this new era of processor innovation.
+RISC-V International is a global nonprofit association based in Switzerland. Founded in 2015 as the RISC-V Foundation with 29 members, is now a truly global organization with 2k+ members in more than 70 countries. Incorporated in Switzerland, RISC-V International is truly a global organization. As a non-profit, RISC-V International does not maintain any commercial interest in products or services.
 
 Excerpts from [RISC-V website](https://riscv.org/about/).
 
