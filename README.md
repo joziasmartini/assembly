@@ -33,38 +33,38 @@ Excerpts from [RISC-V website](https://riscv.org/about/).
 
 A description about the files in this repository.
 
-#### even-number.asm
+#### src/even-number.asm
 
 Checks and returns the occurrence of even numbers in a vector.
 
-#### highest-value.asm
+#### src/highest-value.asm
 
 Finds the highest value present in memory.
 
-#### linked-list.asm
+#### src/linked-list.asm
 
 A linked list with menu for insertion, removal and listing.
 
-#### multiplication.asm
+#### src/multiplication.asm
 
 Implementation of multiplication using successive sums.
 
-#### minefield.asm
+#### src/minefield.asm
 
 A complete implementation of the minefield game.
 
-#### stack-calc.asm
+#### src/stack-calc.asm
 
 A calculus made in a stack architecture assembly.
 
-#### complete-calc.asm
+#### src/complete-calc.asm
 
 A complete calculus made as a example in assembly.
 
-#### risc-v-reference-card.pdf
+#### doc/risc-v-reference-card.pdf
 
 The reference card for instructions in RISC-V architecture.
 
-#### rv32im-isa.pdf
+#### doc/rv32im-isa.pdf
 
 The Instruction Set Architecture (ISA) for RV32IM.
