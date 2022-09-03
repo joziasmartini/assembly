@@ -1,6 +1,7 @@
-# Assembly
-
-Studies and algorithms in Assembly (RISC-V).
+<div align="center">
+  <h1>Assembly</h1>
+  <p>Studies and algorithms in Assembly (RISC-V).<p>
+</div>
 
 ### Introduction
 
