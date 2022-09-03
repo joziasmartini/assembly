@@ -49,6 +49,10 @@ A linked list with menu for insertion, removal and listing.
 
 Implementation of multiplication using successive sums.
 
+#### minefield.asm
+
+A complete implementation of the minefield game.
+
 #### stack-calc.asm
 
 A calculus made in a stack architecture assembly.
