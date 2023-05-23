@@ -1,71 +1,94 @@
 <div align="center">
-  <h1>Assembly</h1>
-  <p>Studies and algorithms in Assembly (RISC-V).<p>
+  <h1>RISC-V Assembly</h1>
+  <p>Studies and algorithms in RISC-V Assembly Language.<p>
 </div>
 
-### Introduction
+## Assembly
 
-In computer programming, assembly language (or assembler language, or symbolic machine code), is any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Assembly language usually has one statement per machine instruction (1:1), but constants, comments, assembler directives, symbolic labels of, e.g., memory locations, registers, and macros are generally also supported.
+Assembly language is a fundamental component of the computer science field, playing a crucial role in understanding and working with computer systems at a low-level. As one of the oldest and most foundational programming languages, assembly provides a direct and intimate connection between software and hardware.
 
-Assembly code is converted into executable machine code by a utility program referred to as an assembler. The term "assembler" is generally attributed to Wilkes, Wheeler and Gill in their 1951 book The Preparation of Programs for an Electronic Digital Computer, who, however, used the term to mean "a program that assembles another program consisting of several sections into a single program". The conversion process is referred to as assembly, as in assembling the source code. The computational step when an assembler is processing a program is called assembly time.
+Assembly language serves as a bridge between high-level programming languages and the machine code that computers understand. It is often referred to as a "low-level" language due to its close correspondence to the architecture and instruction set of a specific computer's processor. Unlike high-level languages such as Python or Java, which are designed to be human-readable and portable, assembly language operates at a level where instructions closely map to the physical operations performed by the computer's hardware.
 
-Because assembly depends on the machine code instructions, each assembly language is specific to a particular computer architecture. Today, it is typical to use small amounts of assembly language code within larger systems implemented in a higher-level language, for performance reasons or to interact directly with hardware in ways unsupported by the higher-level language. For instance, just under 2% of version 4.9 of the Linux kernel source code is written in assembly; more than 97% is written in C.
+One of the primary advantages of working with assembly is its ability to provide programmers with fine-grained control over the hardware. By writing code directly in assembly, developers can optimize their programs for performance and efficiency, exploiting the specific features and capabilities of the underlying processor. This level of control is particularly important in areas such as embedded systems, device drivers, operating system development, and real-time applications where every cycle and resource must be carefully managed.
 
-Excerpts from [Wikipedia](https://en.wikipedia.org/wiki/Assembly_language).
+## RISC-V
 
-### About RISC-V
+The RISC-V (pronounced "risk-five") instruction set architecture (ISA) is an open and free architecture designed to provide a standardized framework for computer processors. It stands out as a revolutionary development in the field of computer science, offering numerous advantages and implications for hardware and software designers, researchers, and enthusiasts worldwide.
 
-<br/>
-<div align="center">
-<img src="./doc/companies-using-riscv.png" width="600" />
-<p>Companies using RISC-V</p>
-</div>
-<br/>
+At its core, RISC-V is a Reduced Instruction Set Computer (RISC) architecture. RISC architectures prioritize simplicity and efficiency by using a small set of instructions that operate on fixed-size data. RISC-V builds upon this foundation, offering a modular and extensible design that supports a wide range of applications, from small embedded systems to large-scale supercomputers. Its instruction set is designed to be clean, orthogonal, and easily expandable, making it suitable for a variety of use cases.
 
-RISC-V is a free and open ISA enabling a new era of processor innovation through open standard collaboration. The RISC-V ISA delivers a new level of free, extensible software and hardware freedom on architecture, paving the way for the next 50 years of computing design and innovation.
+One of the defining characteristics of RISC-V is its open and free nature. Unlike many proprietary ISAs, RISC-V is not controlled by any single organization or entity. It was developed by a collaborative effort from academia and industry, ensuring transparency, inclusiveness, and innovation. The RISC-V Foundation, a non-profit organization, oversees the ongoing development and maintenance of the RISC-V specifications, ensuring that it remains open and accessible to all.
 
-RISC-V has broken down barriers in the semiconductor industry, bringing together different companies, industries, and geographies for open collaboration. RISC-V combines a modular technical approach with an open license business model, meaning that anyone, anywhere can leverage the IP contributed and produced by RISC-V International.
+## RARS
 
-RISC-V International is a global nonprofit association based in Switzerland. Founded in 2015 as the RISC-V Foundation with 29 members, is now a truly global organization with 2k+ members in more than 70 countries. Incorporated in Switzerland, RISC-V International is truly a global organization. As a non-profit, RISC-V International does not maintain any commercial interest in products or services.
+RARS (RISC-V Assembler and Runtime Simulator) is a software tool that provides a comprehensive development and learning environment for the RISC-V assembly language. It includes an assembler, a runtime simulator, and a graphical user interface (GUI). RARS allows users to write, assemble, execute, and debug RISC-V assembly code, providing an accessible platform for learning and experimentation.
 
-Excerpts from [RISC-V website](https://riscv.org/about/).
+The assembler component of RARS translates human-readable RISC-V assembly code into machine code. The runtime simulator enables step-by-step execution of RISC-V programs, helping users understand how instructions affect the processor's state. The GUI enhances the user experience by providing features such as source code editing, breakpoints, and register/memory views.
 
-### Files
+RARS is a valuable resource for students, programmers, and researchers. It offers a controlled environment for newcomers to practice RISC-V assembly programming and serves as an educational tool for teaching computer architecture. It also encourages exploration and experimentation with advanced RISC-V features. Overall, RARS simplifies the development and understanding of RISC-V assembly language, fostering learning, and promoting innovation in the RISC-V ecosystem.
+
+## Who is using RISC-V Assembly?
+
+SiFive: SiFive is a leading provider of RISC-V processor cores, development boards, and related software tools. They offer customizable RISC-V IP solutions for various applications, ranging from microcontrollers to high-performance computing.
+
+NVIDIA: NVIDIA, a prominent technology company known for its graphics processing units (GPUs), has integrated RISC-V cores into some of its products. They have utilized RISC-V for tasks such as security, system management, and control functions.
+
+Western Digital: Western Digital, a storage solutions provider, has embraced RISC-V for its advanced storage platforms. They have developed RISC-V-based processors for specific storage applications, focusing on enhancing performance and efficiency.
+
+Google: Google has shown interest in RISC-V for various projects. They have explored using RISC-V cores in their data centers for certain workload acceleration and have also been involved in research initiatives related to RISC-V.
+
+Alibaba: Alibaba, the Chinese multinational conglomerate, has been actively involved in RISC-V development. They have created their own RISC-V processor designs and are using them for specific applications and platforms.
+
+Huawei: Huawei, a leading technology company, has also embraced RISC-V in its product portfolio. They have been exploring the integration of RISC-V cores in their chips to enhance performance, power efficiency, and security.
+
+Microchip Technology: Microchip Technology, a provider of microcontroller and mixed-signal solutions, has introduced RISC-V-based microcontrollers. These microcontrollers aim to offer flexibility and extensibility while providing a cost-effective solution for embedded applications.
+
+Esperanto Technologies: Esperanto Technologies is a startup focused on developing high-performance, energy-efficient computing solutions based on the RISC-V architecture. They aim to deliver specialized AI and machine learning processors.
+
+Andes Technology: Andes Technology is a company that specializes in RISC-V processor IP cores. They provide a range of customizable cores targeting different performance levels and application domains.
+
+Embecosm: Embecosm is a company offering RISC-V consulting services and development tools. They focus on providing software and compiler toolchain development, enabling efficient utilization of RISC-V processors.
+
+## Files
 
 A description about the files in this repository.
 
-#### src/even-number.asm
+### /src
+
+#### even-number.asm
 
 Checks and returns the occurrence of even numbers in a vector.
 
-#### src/highest-value.asm
+#### highest-value.asm
 
 Finds the highest value present in memory.
 
-#### src/linked-list.asm
+#### linked-list.asm
 
 A linked list with menu for insertion, removal and listing.
 
-#### src/multiplication.asm
+#### multiplication.asm
 
 Implementation of multiplication using successive sums.
 
-#### src/minefield.asm
+#### minefield.asm
 
 A complete implementation of the minefield game.
 
-#### src/stack-calc.asm
+#### stack-calc.asm
 
 A calculus made in a stack architecture assembly.
 
-#### src/complete-calc.asm
+#### complete-calc.asm
 
 A complete calculus made as a example in assembly.
 
-#### doc/risc-v-reference-card.pdf
+### doc/
+
+#### risc-v-reference-card.pdf
 
 The reference card for instructions in RISC-V architecture.
 
-#### doc/rv32im-isa.pdf
+#### rv32im-isa.pdf
 
 The Instruction Set Architecture (ISA) for RV32IM.
