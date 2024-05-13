@@ -83,6 +83,26 @@ A calculus made in a stack architecture assembly.
 
 A complete calculus made as a example in assembly.
 
+#### vector.asm
+
+Print an integer vector.
+
+### triangle.asm
+
+Check if the given numbers forms a trangle.
+
+### palindrome.asm
+
+Check if the given string is a palindrome.
+
+### ordering.asm
+
+Order a integer vector.
+
+### consonants.asm
+
+Print only the consonants of a given string.
+
 ### doc/
 
 #### risc-v-reference-card.pdf
