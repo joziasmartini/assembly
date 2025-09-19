@@ -87,19 +87,19 @@ A complete calculus made as a example in assembly.
 
 Print an integer vector.
 
-### triangle.asm
+#### triangle.asm
 
 Check if the given numbers forms a trangle.
 
-### palindrome.asm
+#### palindrome.asm
 
 Check if the given string is a palindrome.
 
-### ordering.asm
+#### ordering.asm
 
 Order a integer vector.
 
-### consonants.asm
+#### consonants.asm
 
 Print only the consonants of a given string.
 
